@@ -20,4 +20,15 @@
     wp_enqueue_script( 'theme_js', get_stylesheet_directory_uri() . '/js/main.js', array( 'jquery' ), '1.0', true );
     wp_enqueue_script( 'respond', get_stylesheet_directory_uri() . '/js/vendor/respond.min.js', array( 'jquery' ), '1.0', true );
 	}
+	function tesseract_footer_brand() {
+	do_action( 'tesseract_footer_brand' );
+	}
+
+function tesseract_footer_brand_output() {
+	echo '<div id="footer-banner-right" class="designer"><div class="table"><div class="table-cell">';
+    printf( __( 'Design & Develop by %s', 'tesseract' ), '<a href="http://robertdesign.x10.bz">Robert Cruda</a>' );
+	echo '</div></div></div>';
+}
+
+add_action('tesseract_footer_brand','tesseract_footer_brand_output', 10);
 ?>

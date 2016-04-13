@@ -88,7 +88,7 @@ $headpos = ( is_front_page() && ( $header_bckOpacity && ( intval($opValue) < 100
     ?>
 
     	<header class="cd-header">
-		<div class="cd-logo"><a href="#0"><img src="assets/cd-logo.svg" alt="Logo"></a></div>
+		<div class="cd-logo"><a href="#0"><img src="http://localhost/my-website/wp-content/uploads/2016/04/fpz-logo.png" alt="Logo"></a></div>
 
 		<a class="cd-primary-nav-trigger" href="#0">
 			<span class="cd-menu-icon"></span>
@@ -104,10 +104,9 @@ $headpos = ( is_front_page() && ( $header_bckOpacity && ( intval($opValue) < 100
 
 			<li class="cd-label">Follow Me</li>
 			
-			<li class="cd-social cd-facebook"><a href="#0">Facebook</a></li>
-			<li class="cd-social cd-instagram"><a href="#0">Instagram</a></li>
-			<li class="cd-social cd-dribbble"><a href="#0">Dribbble</a></li>
-			<li class="cd-social cd-twitter"><a href="#0">Twitter</a></li>
+			<li class="cd-social cd-facebook"><a href="https://www.facebook.com/profile.php?id=100007396964970">Facebook</a></li>
+			<li class="cd-social cd-google"><a href="#0">Google</a></li>
+			<li class="cd-social cd-github"><a href="https://github.com/frejemaes">Github</a></li>
 		</ul>
 	</nav>
 
